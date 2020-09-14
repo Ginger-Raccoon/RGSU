@@ -1,0 +1,6 @@
+.check-in__button-container {
+  display: flex;
+  justify-content: space-between;
+  grid-area: 6 / 1 / 7 / 3  ;
+  padding: 10px 13px 39px 34px;
+}

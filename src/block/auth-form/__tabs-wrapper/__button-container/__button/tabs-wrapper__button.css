@@ -1,0 +1,13 @@
+
+
+.tabs-wrapper__button {
+  font-size: 26px;
+  line-height: 26px;
+  color: #C3CAD6;
+  margin-top: 39px;
+}
+
+.tabs-wrapper__button_active {
+  color: #3464E0;
+}
+

@@ -1,0 +1,17 @@
+.check-in__snils {
+  grid-area: 3 / 1 / 4 / 2;
+  position: relative;
+}
+
+.snils__error {
+  position: absolute;
+  color: red;
+  font-size: 10px;
+  left: -15px;
+  bottom: -18px;
+  display: none;
+}
+
+input:invalid:not(:placeholder-shown) + .snils__error {
+  display: block;
+}

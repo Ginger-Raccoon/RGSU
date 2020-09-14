@@ -1,0 +1,8 @@
+.check-in__content {
+  display: grid;
+  grid-template-columns: repeat(2, 280px);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 31px;
+  grid-row-gap: 13px;
+  padding-left: 33px;
+}

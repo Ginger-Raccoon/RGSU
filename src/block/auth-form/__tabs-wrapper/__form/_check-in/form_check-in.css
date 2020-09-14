@@ -1,0 +1,38 @@
+@import url('./__content/check-in__content.css');
+@import url('./__button-container/check-in__button-container.css');
+@import url('./__user-name/check-in__user-name.css');
+@import url('./__email/check-in__email.css');
+@import url('./__snils/check-in__snils.css');
+@import url('./__phone/check-in__phone.css');
+@import url('./__birthday/check-in__birthday.css');
+@import url('./__checkbox/check-in__checkbox.css');
+@import url('./__label/check-in__label.css');
+
+.form_check-in {
+  width: 100%;
+  padding-top: 88px;
+}
+
+.form_check-in::before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  background-color: rgba(255,255,255,.7);
+  top: -21px;
+  width: 857px;
+  z-index: -1;
+  border-radius: 4px;
+  left: 17px;
+}
+
+.form_check-in::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 835px;
+  background-color: rgba(255,255,255,.5);
+  z-index: -2;
+  top: -38px;
+  left: 26px;
+  border-radius: 4px;
+}

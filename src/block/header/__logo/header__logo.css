@@ -1,0 +1,8 @@
+@import url('./__link/logo__link.css');
+@import url('./__image/logo__image.css');
+
+.header__logo {
+  display: flex;
+  padding-left: 21px;
+  padding-top: 6px;
+}

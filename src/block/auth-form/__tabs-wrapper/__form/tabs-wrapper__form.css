@@ -1,0 +1,16 @@
+@import url('./_check-in/form_check-in.css');
+@import url('./_login/form_login.css');
+@import url('./__text/form__text.css');
+
+
+.tabs-wrapper__form{
+  display: none;
+  background-color: #FFF;
+  margin: 0 auto;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.tabs-wrapper__form_active {
+  display: flex;
+}

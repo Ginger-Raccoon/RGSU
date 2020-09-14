@@ -1,0 +1,23 @@
+@import url('./src/block/header/header.css');
+@import url('./src/block/link/link.css');
+@import url('./src/block/auth-form/auth-form.css');
+@import url('./src/block/input/input.css');
+@import url('./src/block/button/button.css');
+
+@font-face {
+  font-family: 'russia';
+  src: url(./src/fonts/8425.ttf);
+}
+
+.body {
+  background: linear-gradient(84.71deg, #3464E0 1.19%, #2955C9 99.81%);
+  font-family:russia, sans-serif;
+}
+
+.page {
+  max-width: 1357px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

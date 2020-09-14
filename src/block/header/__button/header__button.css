@@ -1,0 +1,15 @@
+@import url('./__icon/button__icon.css');
+
+.header__button {
+  color: #FFF;
+  min-width: 175px;
+  background: #1740AA;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.header__button:hover {
+  color: #9CBAF0;
+}

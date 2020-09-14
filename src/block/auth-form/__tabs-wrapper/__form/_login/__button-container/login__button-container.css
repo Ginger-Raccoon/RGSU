@@ -1,0 +1,6 @@
+.login__button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 38px 0 50px;
+}

@@ -1,0 +1,34 @@
+@import url('./__button-container/login__button-container.css');
+@import url('./__content/login__content.css');
+@import url('./__recovery/login__recovery.css');
+@import url('./__error/login__error.css');
+
+.form_login {
+  justify-content: center;
+  width: calc(100% - 400px);
+  padding-top: 99px;
+}
+
+.form_login::before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  background-color: rgba(255,255,255,.7);
+  top: -21px;
+  width: 472px;
+  z-index: -1;
+  border-radius: 4px;
+  left: 209px;
+}
+
+.form_login::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 461px;
+  background-color: rgba(255,255,255,.5);
+  z-index: -2;
+  top: -38px;
+  left: 214px;
+  border-radius: 4px;
+}

@@ -1,0 +1,11 @@
+.navigation__link {
+  display: inline-block;
+  color: #9CBAF0;
+  margin-right: 43px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.navigation__link:nth-last-child() {
+  margin-right: 0;
+}

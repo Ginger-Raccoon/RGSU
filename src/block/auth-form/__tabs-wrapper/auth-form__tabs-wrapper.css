@@ -1,0 +1,15 @@
+@import url('./__form/_active/tabs-wrapper__form_active.css');
+@import url('./__form/tabs-wrapper__form.css');
+@import url('./__button/_active/tabs-wrapper__button_active.css');
+@import url('./__button-container/tabs-wrapper__button-container.css');
+
+.auth-form__tabs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-top: 112px;
+  flex-direction: column;
+  position: relative;
+}
+

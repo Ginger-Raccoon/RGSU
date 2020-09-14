@@ -1,0 +1,7 @@
+.input_login {
+  min-width: 338px;
+}
+
+input:invalid:not(:placeholder-shown) + .login__error {
+  display: block;
+}

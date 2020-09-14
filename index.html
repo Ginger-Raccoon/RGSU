@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGSU</title>
+  <link rel="icon" type="image/png" href="./src/img/favicon.ico">
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+    <div class="header__logo">
+      <a href="" class="logo__link link"><img src="./src/img/brain 1.svg" alt="Схематичное изображение мозга" class="logo__image">Портал НПР РГСУ</a>
+    </div>
+    <nav class="header__navigation">
+      <ul class="navigation__links">
+        <li class="navigation__link"><a href="" class="link link_navigation">Новости</a></li>
+        <li class="navigation__link"><a href="" class="link link_navigation">Преподаватели</a></li>
+        <li class="navigation__link"><a href="" class="link link_navigation">Вакансии</a></li>
+        <li class="navigation__link"><a href="" class="link link_navigation">Объявления</a></li>
+        <li class="navigation__link"><a href="" class="link link_navigation">Мероприятия</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="header__button link"><img src="./src/img/logout 1.svg" alt="Схематичное изображение двери" class="button__icon">Вход на сайт</a>
+  </header>
+  <section class="auth-form">
+    <div class="auth-form__tabs-wrapper">
+      <div class="tabs-wrapper__button-container">
+        <a href="#form-login" class="tabs-wrapper__button link">Авторизация</a>
+        <a href="#form-check-in" class="tabs-wrapper__button link">Регистрация</a>
+      </div>
+      <form action="" class="tabs-wrapper__form form_login" id="form-login">
+        <div class="login__content">
+            <p class="form__text">Ваш email</p> 
+          <input type="email" class="login__email input input_login" placeholder="Укажите адресс электронной почты">
+          <span class="login__error">Это поле должно содержать E-Mail в формате example@site.com</span>
+          <p class="form__text form__text_password">Введите пароль</p>
+          <input type="password" class="login__password input input_login" placeholder="*****">
+          <div class="login__button-container">
+            <button class="button button_add login__button">Добавить запись</button>
+            <a  class="link login__recovery">Забыли пароль?</a>
+          </div>
+        </div>
+      </form>
+      <form action="" class="tabs-wrapper__form form_check-in" id="form-check-in">
+        <div class="check-in__content">
+          <div class="check-in__user-name">
+            <p class="form__text form__text_check-in">ФИО</p>
+            <input type="text" class="input input_field" placeholder="Фамилия Имя Отчество" required >
+          </div>
+          <div class="check-in__email">
+            <p class="form__text form__text_check-in">Email</p>
+            <input type="email" class="input input_field" placeholder="Адрес будет логином на портале" pattern="^[A-Za-z0-9-_.]+@[a-zA-Z0-9-_]+(.[A-Za-z0-9]+?)?\.[a-zA-Z0-9]+" required >
+            <span class="email__error">Это поле должно содержать E-Mail в формате example@site.com</span>
+          </div>
+          <div class="check-in__phone">
+            <p class="form__text form__text_check-in">Телефон</p>
+            <input type="tel" class="input input_field" placeholder="+7(___)___-__-__" pattern="^\+?\d\(?\s?\d{3}\)?\s?-?\d{3}-?\d{2}-?\d{2}$" minlength="" maxlength="18" required >
+            <span class="phone__error">Это поле должно содержать номер в формате +7(965)449-2*-**</span>
+          </div>
+          <div class="check-in__snils">
+            <p class="form__text form__text_check-in">СНИЛС</p>
+            <input type="text" class="input input_field" placeholder="___-___-__" pattern="^\d{3}\s?-?\d{3}\s?-?\d{2}$" minlength="8" maxlength="10" required >
+            <span class="snils__error">Это поле должно содержать номер в формате 456-21*-**</span>
+          </div>
+          <div class="check-in__birthday">
+            <p class="form__text form__text_check-in">Дата рождения</p>
+            <input type="date" class="input input_field" placeholder="__.__.____" required > 
+          </div>
+          <div class="check-in__checkbox">
+            <label class="check-in__label form__text_check-in" for="personal-data"><input type="checkbox" id="personal-data" class="input_custom-check" required >Согласен на обработку моих персональных данных</label>
+            <label class="check-in__label form__text_check-in" for="notifications"><input type="checkbox" id="notifications" class="input_custom-check" required >Согласен на получение уведомлений и рассылок</label>
+          </div>
+        </div>
+        <div class="check-in__button-container">
+          <button class="button button_register check-in__button-register">Зарегистрироваться</button>
+          <a href="#form-login" class="button button_refuse check-in__button-refuse">Отказаться</a>
+        </div>
+      </form>
+    </div>
+  </section>
+  </div>
+  <script src="./src/js/index.js"></script>
+</body>
+</html>

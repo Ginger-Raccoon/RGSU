@@ -1,0 +1,6 @@
+@import url('./__tabs-wrapper/auth-form__tabs-wrapper.css');
+
+.auth-form {
+  margin: 0 auto;
+  min-width: 890px;
+}

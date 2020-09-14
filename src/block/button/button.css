@@ -1,0 +1,28 @@
+.button {
+  background: #3464E0;
+  border: 1px solid #3464E0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #FFF;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.button_add{
+  padding: 8px 15px;
+}
+
+.button_register {
+  padding-left: 17px;
+  padding-right: 26px;
+}
+
+.button_refuse {
+  border-color: #C3CAD6;
+  background-color: #FFF;
+  color: #C3CAD6;
+  padding: 9px 30px;
+  text-decoration: none;
+}

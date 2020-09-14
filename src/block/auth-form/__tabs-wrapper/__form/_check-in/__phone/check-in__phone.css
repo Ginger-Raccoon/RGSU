@@ -1,0 +1,17 @@
+.check-in__phone { 
+  grid-area: 2 / 2 / 3 / 3; 
+  position: relative;
+} 
+
+.phone__error {
+  position: absolute;
+  color: red;
+  font-size: 10px;
+  left: -15px;
+  bottom: -18px;
+  display: none;
+}
+
+input:invalid:not(:placeholder-shown) + .phone__error {
+  display: block;
+}

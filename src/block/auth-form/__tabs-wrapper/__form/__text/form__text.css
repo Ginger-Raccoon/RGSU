@@ -1,0 +1,17 @@
+.form__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444444;
+  margin: 6px 0px 6px;
+}
+
+.form__text::after {
+  content: " *";
+  color: red;
+}
+
+
+.form__text_password {
+  margin-top: 13px;
+  margin-bottom: 9px;
+}

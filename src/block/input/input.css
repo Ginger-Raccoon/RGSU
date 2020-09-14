@@ -1,0 +1,30 @@
+@import url('./_login/input_login.css');
+@import url('./_field/input_field.css');
+@import url('./_custom-check/input_custom-check.css');
+
+.input {
+  border: 1px solid #F1F4F9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 9px 8px 9px 12px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3464E0;
+}
+.input:invalid:not(:placeholder-shown) {
+  outline: none;
+  border-color: red;
+}
+.input:valid:not(:placeholder-shown) {
+  outline: none;
+  border-color: green;
+}
+
+
+.input_custom-check:checked+.check-in__label::before {
+  background-color: black;
+}

@@ -1,0 +1,11 @@
+@import url('./__button/tabs-wrapper__button.css');
+
+.tabs-wrapper__button-container {
+  position: absolute;
+  top: 0px;
+  left: 277px;
+  display: flex;
+  justify-content: space-around;
+  min-width: 342px;
+  text-align: center;
+}
